@@ -1,0 +1,165 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.logo-container {
+    margin-bottom: 20px;
+}
+
+.logo-container img {
+    width: 180px;
+}
+
+.login-container {
+    width: 350px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+form {
+    margin-top: 10px;
+}
+
+.input-group label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    background-color: #ffa41c;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e69500;
+}
+
+.info-text, .help a, .new-account a {
+    font-size: 12px;
+    color: #767676;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #0066c0;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.footer-links {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.footer-links a {
+    margin-right: 10px;
+}
+
+.footer-links a:last-child {
+    margin-right: 0;
+}
+
+.email-display .pas{
+    margin: 20px 0;
+    font-size: 16px;
+}
+
+.email-display a {
+    color: #0066c0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.email-display a:hover {
+    text-decoration: underline;
+}
+
+.forgot-password {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #0066c0;
+    text-decoration: none;
+    font-size: 13px;
+
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.checkanddetails {
+    display: flex;
+    align-items: center;
+    
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.checkbox-group label {
+    margin-left: 5px;
+}
+
+.more-details {
+    display: block;
+    margin-bottom: 15px;
+    color: #0066c0;
+    font-size: 15px;
+}
+
+.info-links {
+    font-size: 12px;
+    margin-top: 20px;
+    color: #767676;
+}
+
+.info-links a {
+    color: #0066c0;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.info-links a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
